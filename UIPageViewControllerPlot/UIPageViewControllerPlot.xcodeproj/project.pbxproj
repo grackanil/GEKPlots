@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		722B7AB020299B070076EBFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7AAF20299B070076EBFD /* AppDelegate.m */; };
+		722B7AB620299B070076EBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722B7AB420299B070076EBFD /* Main.storyboard */; };
+		722B7AB820299B070076EBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 722B7AB720299B070076EBFD /* Assets.xcassets */; };
+		722B7ABB20299B070076EBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722B7AB920299B070076EBFD /* LaunchScreen.storyboard */; };
+		722B7ABE20299B070076EBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7ABD20299B070076EBFD /* main.m */; };
+		722B7AC820299B070076EBFD /* UIPageViewControllerPlotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7AC720299B070076EBFD /* UIPageViewControllerPlotTests.m */; };
+		722B7AD320299B070076EBFD /* UIPageViewControllerPlotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7AD220299B070076EBFD /* UIPageViewControllerPlotUITests.m */; };
+		722B7AE220299B8C0076EBFD /* GEKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7AE120299B8C0076EBFD /* GEKTableViewController.m */; };
+		722B7AE520299C730076EBFD /* GEKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 722B7AE420299C730076EBFD /* GEKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		722B7AC420299B070076EBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722B7AA320299B070076EBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722B7AAA20299B070076EBFD;
+			remoteInfo = UIPageViewControllerPlot;
+		};
+		722B7ACF20299B070076EBFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722B7AA320299B070076EBFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722B7AAA20299B070076EBFD;
+			remoteInfo = UIPageViewControllerPlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		722B7AAB20299B070076EBFD /* UIPageViewControllerPlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPageViewControllerPlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		722B7AAE20299B070076EBFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		722B7AAF20299B070076EBFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		722B7AB520299B070076EBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		722B7AB720299B070076EBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		722B7ABA20299B070076EBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		722B7ABC20299B070076EBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722B7ABD20299B070076EBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		722B7AC320299B070076EBFD /* UIPageViewControllerPlotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageViewControllerPlotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722B7AC720299B070076EBFD /* UIPageViewControllerPlotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPageViewControllerPlotTests.m; sourceTree = "<group>"; };
+		722B7AC920299B070076EBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722B7ACE20299B070076EBFD /* UIPageViewControllerPlotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPageViewControllerPlotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722B7AD220299B070076EBFD /* UIPageViewControllerPlotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPageViewControllerPlotUITests.m; sourceTree = "<group>"; };
+		722B7AD420299B070076EBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722B7AE020299B8C0076EBFD /* GEKTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEKTableViewController.h; sourceTree = "<group>"; };
+		722B7AE120299B8C0076EBFD /* GEKTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEKTableViewController.m; sourceTree = "<group>"; };
+		722B7AE320299C730076EBFD /* GEKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GEKViewController.h; sourceTree = "<group>"; };
+		722B7AE420299C730076EBFD /* GEKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GEKViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722B7AA820299B070076EBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7AC020299B070076EBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7ACB20299B070076EBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722B7AA220299B070076EBFD = {
+			isa = PBXGroup;
+			children = (
+				722B7AAD20299B070076EBFD /* UIPageViewControllerPlot */,
+				722B7AC620299B070076EBFD /* UIPageViewControllerPlotTests */,
+				722B7AD120299B070076EBFD /* UIPageViewControllerPlotUITests */,
+				722B7AAC20299B070076EBFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		722B7AAC20299B070076EBFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				722B7AAB20299B070076EBFD /* UIPageViewControllerPlot.app */,
+				722B7AC320299B070076EBFD /* UIPageViewControllerPlotTests.xctest */,
+				722B7ACE20299B070076EBFD /* UIPageViewControllerPlotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		722B7AAD20299B070076EBFD /* UIPageViewControllerPlot */ = {
+			isa = PBXGroup;
+			children = (
+				722B7AAE20299B070076EBFD /* AppDelegate.h */,
+				722B7AAF20299B070076EBFD /* AppDelegate.m */,
+				722B7AE020299B8C0076EBFD /* GEKTableViewController.h */,
+				722B7AE120299B8C0076EBFD /* GEKTableViewController.m */,
+				722B7AE320299C730076EBFD /* GEKViewController.h */,
+				722B7AE420299C730076EBFD /* GEKViewController.m */,
+				722B7AB420299B070076EBFD /* Main.storyboard */,
+				722B7AB720299B070076EBFD /* Assets.xcassets */,
+				722B7AB920299B070076EBFD /* LaunchScreen.storyboard */,
+				722B7ABC20299B070076EBFD /* Info.plist */,
+				722B7ABD20299B070076EBFD /* main.m */,
+			);
+			path = UIPageViewControllerPlot;
+			sourceTree = "<group>";
+		};
+		722B7AC620299B070076EBFD /* UIPageViewControllerPlotTests */ = {
+			isa = PBXGroup;
+			children = (
+				722B7AC720299B070076EBFD /* UIPageViewControllerPlotTests.m */,
+				722B7AC920299B070076EBFD /* Info.plist */,
+			);
+			path = UIPageViewControllerPlotTests;
+			sourceTree = "<group>";
+		};
+		722B7AD120299B070076EBFD /* UIPageViewControllerPlotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				722B7AD220299B070076EBFD /* UIPageViewControllerPlotUITests.m */,
+				722B7AD420299B070076EBFD /* Info.plist */,
+			);
+			path = UIPageViewControllerPlotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722B7AAA20299B070076EBFD /* UIPageViewControllerPlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722B7AD720299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlot" */;
+			buildPhases = (
+				722B7AA720299B070076EBFD /* Sources */,
+				722B7AA820299B070076EBFD /* Frameworks */,
+				722B7AA920299B070076EBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPageViewControllerPlot;
+			productName = UIPageViewControllerPlot;
+			productReference = 722B7AAB20299B070076EBFD /* UIPageViewControllerPlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		722B7AC220299B070076EBFD /* UIPageViewControllerPlotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722B7ADA20299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlotTests" */;
+			buildPhases = (
+				722B7ABF20299B070076EBFD /* Sources */,
+				722B7AC020299B070076EBFD /* Frameworks */,
+				722B7AC120299B070076EBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722B7AC520299B070076EBFD /* PBXTargetDependency */,
+			);
+			name = UIPageViewControllerPlotTests;
+			productName = UIPageViewControllerPlotTests;
+			productReference = 722B7AC320299B070076EBFD /* UIPageViewControllerPlotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		722B7ACD20299B070076EBFD /* UIPageViewControllerPlotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722B7ADD20299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlotUITests" */;
+			buildPhases = (
+				722B7ACA20299B070076EBFD /* Sources */,
+				722B7ACB20299B070076EBFD /* Frameworks */,
+				722B7ACC20299B070076EBFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722B7AD020299B070076EBFD /* PBXTargetDependency */,
+			);
+			name = UIPageViewControllerPlotUITests;
+			productName = UIPageViewControllerPlotUITests;
+			productReference = 722B7ACE20299B070076EBFD /* UIPageViewControllerPlotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722B7AA320299B070076EBFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gekang;
+				TargetAttributes = {
+					722B7AAA20299B070076EBFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					722B7AC220299B070076EBFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 722B7AAA20299B070076EBFD;
+					};
+					722B7ACD20299B070076EBFD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 722B7AAA20299B070076EBFD;
+					};
+				};
+			};
+			buildConfigurationList = 722B7AA620299B070076EBFD /* Build configuration list for PBXProject "UIPageViewControllerPlot" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722B7AA220299B070076EBFD;
+			productRefGroup = 722B7AAC20299B070076EBFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722B7AAA20299B070076EBFD /* UIPageViewControllerPlot */,
+				722B7AC220299B070076EBFD /* UIPageViewControllerPlotTests */,
+				722B7ACD20299B070076EBFD /* UIPageViewControllerPlotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722B7AA920299B070076EBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B7ABB20299B070076EBFD /* LaunchScreen.storyboard in Resources */,
+				722B7AB820299B070076EBFD /* Assets.xcassets in Resources */,
+				722B7AB620299B070076EBFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7AC120299B070076EBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7ACC20299B070076EBFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722B7AA720299B070076EBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B7AE520299C730076EBFD /* GEKViewController.m in Sources */,
+				722B7ABE20299B070076EBFD /* main.m in Sources */,
+				722B7AB020299B070076EBFD /* AppDelegate.m in Sources */,
+				722B7AE220299B8C0076EBFD /* GEKTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7ABF20299B070076EBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B7AC820299B070076EBFD /* UIPageViewControllerPlotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722B7ACA20299B070076EBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B7AD320299B070076EBFD /* UIPageViewControllerPlotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		722B7AC520299B070076EBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722B7AAA20299B070076EBFD /* UIPageViewControllerPlot */;
+			targetProxy = 722B7AC420299B070076EBFD /* PBXContainerItemProxy */;
+		};
+		722B7AD020299B070076EBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722B7AAA20299B070076EBFD /* UIPageViewControllerPlot */;
+			targetProxy = 722B7ACF20299B070076EBFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		722B7AB420299B070076EBFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722B7AB520299B070076EBFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		722B7AB920299B070076EBFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722B7ABA20299B070076EBFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722B7AD520299B070076EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		722B7AD620299B070076EBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722B7AD820299B070076EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722B7AD920299B070076EBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		722B7ADB20299B070076EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPageViewControllerPlot.app/UIPageViewControllerPlot";
+			};
+			name = Debug;
+		};
+		722B7ADC20299B070076EBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIPageViewControllerPlot.app/UIPageViewControllerPlot";
+			};
+			name = Release;
+		};
+		722B7ADE20299B070076EBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIPageViewControllerPlot;
+			};
+			name = Debug;
+		};
+		722B7ADF20299B070076EBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XXY46MZ665;
+				INFOPLIST_FILE = UIPageViewControllerPlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = top.grackanil.UIPageViewControllerPlotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIPageViewControllerPlot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722B7AA620299B070076EBFD /* Build configuration list for PBXProject "UIPageViewControllerPlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722B7AD520299B070076EBFD /* Debug */,
+				722B7AD620299B070076EBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722B7AD720299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722B7AD820299B070076EBFD /* Debug */,
+				722B7AD920299B070076EBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722B7ADA20299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722B7ADB20299B070076EBFD /* Debug */,
+				722B7ADC20299B070076EBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722B7ADD20299B070076EBFD /* Build configuration list for PBXNativeTarget "UIPageViewControllerPlotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722B7ADE20299B070076EBFD /* Debug */,
+				722B7ADF20299B070076EBFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722B7AA320299B070076EBFD /* Project object */;
+}

@@ -5,3 +5,4 @@
 
 * LoadAndInitializePlot `+(void)load;` 和 `+(void)initialize;`实践
 * DesignPatterns_Multi-Inheritance 使用协议和多态解决多继承和数据统一
+* UIPageViewControllerPlot UIPageViewController 使用
